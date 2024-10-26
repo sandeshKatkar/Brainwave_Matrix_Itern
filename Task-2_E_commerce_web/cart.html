@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#" class="head-a"><img src="./images/logo(2).png" alt="" class="logo"></a>
+        <div class="nav-box">
+            <ul id="navbar">
+                <li><i class="fa-solid fa-xmark" id="cross-btn"></i></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="cart-li"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+            
+        </div>
+    </section>
+
+    <section id="page-header"  class="cart-header">    
+        <h2>#Cart</h2>   
+        <p>Save more with coupons & up to 70% off!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table>
+            <thead>
+                <tr>
+                    <td>REMOVE</td>
+                    <td>IMAGE</td>
+                    <td>PRODUCT</td>
+                    <td>PRICE</td>
+                    <td>QUANTITY</td>
+                    <td>SUBTOTAL</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>re</td>
+                    <td><img src="./images/products/f1.jpg" alt=""></td>
+                    <td>Printed Half Shirt</td>
+                    <td>$12</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$12</td>
+                </tr>
+                <tr>
+                    <td>re</td>
+                    <td><img src="./images/products/f2.jpg" alt=""></td>
+                    <td>Printed Half Shirt</td>
+                    <td>$15</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$15</td>
+                </tr>
+                <tr>
+                    <td>re</td>
+                    <td><img src="./images/products/f3.jpg" alt=""></td>
+                    <td>Printed Half Shirt</td>
+                    <td>$13</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$13</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+   <section id="cart-add" class="section-p1">
+        <div class="cart-add-body">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <button class="btn-normal">Apply</button>
+                </div>
+            </div>
+            <div id="subtotal">
+                <h3>Subtotal</h3>
+                <table>
+                    <tr>
+                        <td>Cart Total</td>
+                        <td>$ 40</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>$ 2</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>$ 42</strong></td>
+                    </tr>
+                </table>
+                <button class="btn-normal">Proceed To checkouts</button>
+            </div>
+        </div>
+   </section>
+
+    
+
+    <footer class="section-p1">
+        <div class="f-box">
+            <img class="logo f-logo" src="./images/logo-w.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>s62 Wellington Road, street 32, Delhi</p>
+            <p><strong>Phone: </strong>+01 2222 365 /(+91) 01 2345 6789</p>
+            <p><strong>Hours: </strong>10:00 - 18:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube-f"></i>
+                </div>
+            </div>
+        </div>
+        <div class="f-box">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Plicy</a>
+            <a href="#">Terms & Conditons</a>
+            <a href="#">Contact US</a>
+        </div>
+        <div class="f-box">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="f-box install">
+            <h4>Install App</h4>
+            <p>From App store or Google Plays</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">
+                <img src="images/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>&#169; 2024, Tech etc - HTML-CSS-JavaScript-Ecommerce Website</p>
+        </div>
+    </footer>
+
+  <script src="script.js"></script>  
+</body>
+</html>
